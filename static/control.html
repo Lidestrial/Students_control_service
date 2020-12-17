@@ -1,0 +1,117 @@
+<!Doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset = "UTF-8">
+    <title>Сервис Учёта Студентов</title>
+    <meta name = "description" value = "Система Учёта Студентов Образовательного Учереждения" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <style type=”text/css”>.col-xs-12, .col-xs-4, .col-xs-8 {border:1px solid red;}</style>
+
+</head>
+<body>
+
+    <!-- Start Container -->
+    <div class="container">
+
+        <div class="row" id="header">
+            <!--  Logo  -->
+            <div class="col col-xs-8">
+                <h1>Сервис Учёта студентов</h1>
+            </div>
+            <!-- End logo -->
+            <!-- Group Selector -->
+            <div class="col col-xs-4" class="custom-select id="group-selector">
+                <strong> Группа: </strong>
+                <select>
+                    <option value="">Все Студенты</option>
+                    <option value="">ТИ-71, Ушаков Сергей (№7118)</option>
+                    <option value="">ТИ-72, Данилл Гиззатуллин (№7203)</option>
+                </select>
+            </div>
+            <!-- End Group Selector -->
+        </div>
+    <!-- End Header -->
+
+    <!-- Subheader -->
+    <div class="row" id="sub-header">
+        <div class="col col-xs-12">
+            <ul class="nav nav-tabs" role="presentation">
+                <li role="presentation" class="nav-link"><a href="#">Студенты</a> </li>
+                <li role="presentation" class="nav-link"><a href="#">Посещения</a> </li>
+                <li role="presentation" class="nav-link active"><a href="#">Группы</a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- End Subheader -->
+
+    <!-- Start Main Page Content -->
+    <div class ="row" id="content-columns">
+        <div class="col col-xs-12" id="content-column">
+            <!-- Status Message -->
+
+            <div class="groups"></div>
+            <h2>Группы</h2>
+            <a class="btn btn-primary btn2" href="#">Добавить группу</a>
+
+            <!-- Start Student Listing -->
+            <table class="table table-hover table-striped">
+                <thead>
+                <tr>
+                    <th><a href="">#</a> </th>
+                    <th><a href="">Название &uarr;</a></th>
+                    <th><a href="#">Староста</a></th>
+                    <th><a href="#">Действия</a></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>ТI-71</td>
+                    <td>Ушаков Сергей Михайлович</td>
+                    <td>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-default dropdown-toggle"
+                                  data-toggle="dropdown">Действие
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Редактировать</a></li>
+                            <li><a href="#">Посещения</a></li>
+                            <li><a href="#">Удалить</a></li>
+                          </ul>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <!-- End Students Listing -->
+        <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">Далее</a></li>
+              </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- End Main Page Content -->
+
+    <!-- Start footer -->
+    <footer>
+        <div class="row" id ="footer">
+            <div class="col col-xs-12">
+                &copy; 2020 Сервис Учёта Студентов
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

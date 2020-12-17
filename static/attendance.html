@@ -1,0 +1,246 @@
+<!Doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset = "UTF-8">
+    <title>Сервис Учёта Студентов</title>
+    <meta name = "description" value = "Система Учёта Студентов Образовательного Учереждения" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <style type=”text/css”>.col-xs-12, .col-xs-4, .col-xs-8 {border:1px solid red;}</style>
+
+</head>
+<body>
+
+    <!-- Start Container -->
+    <div class="container">
+
+        <div class="row" id="header">
+            <!--  Logo  -->
+            <div class="col col-xs-8">
+                <h1>Сервис Учёта студентов</h1>
+            </div>
+            <!-- End logo -->
+            <!-- Group Selector -->
+            <div class="col col-xs-4" class="custom-select id="group-selector">
+                <strong> Группа: </strong>
+                <select>
+                    <option value="">Все Студенты</option>
+                    <option value="">ТИ-71, Ушаков Сергей (№7118)</option>
+                    <option value="">ТИ-72, Данилл Гиззатуллин (№7203)</option>
+                </select>
+            </div>
+            <!-- End Group Selector -->
+        </div>
+    <!-- End Header -->
+
+    <!-- Subheader -->
+    <div class="row" id="sub-header">
+        <div class="col col-xs-12">
+            <ul class="nav nav-tabs " role="presentation">
+                <li role="presentation" class="nav-link"><a href="#">Студенты</a> </li>
+                <li role="presentation" class="nav-link active"><a href="#">Посещения</a> </li>
+                <li role="presentation" class="nav-link "><a href="#">Группы</a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- End Subheader -->
+
+    <!-- Start Main Page Content -->
+    <div class ="row " id="content-columns">
+        <div class="col col-xs-12 " id="content-column">
+            <!-- Status Message -->
+
+            <div class="groups "></div>
+            <h2>Учёт посещения</h2>
+            <!-- Start Attendance listing -->
+            <div class="text-center">
+
+                <p><a href="#">&#8592;</a>Июль 2020<a href="#">&#8594;</a></p>
+
+            </div>
+            <table class="table-responsive table-bordered table-striped ">
+                <thead>
+                <tr>
+
+                    <th><p class="text-center">#</p> </th>
+                    <th><p class="text-center">Студент</p></th>
+                    <th><p class="text-center">Ср 1</p></th>
+                    <th><p class="text-center">Чт <br> 2</p></th>
+                    <th><p class="text-center">Пт <br> 3</p></th>
+                    <th><p class="text-center">Сб 4</p></th>
+                    <th><p class="text-center">Вс <br> 5</p></th>
+                    <th><p class="text-center">Пн 6</p></th>
+                    <th><p class="text-center">Вт <br> 7</p></th>
+                    <th><p class="text-center">Ср 8</p></th>
+                    <th><p class="text-center">Чт <br> 9</p></th>
+                    <th><p class="text-center">Пт 10</p></th>
+                    <th><p class="text-center">Сб 11</p></th>
+                    <th><p class="text-center">Вс 12</p></th>
+                    <th><p class="text-center">Пн 13</p></th>
+                    <th><p class="text-center">Вт 14</p></th>
+                    <th><p class="text-center">Ср 15</p></th>
+                    <th><p class="text-center">Чт 16</p></th>
+                    <th><p class="text-center">Пт 17</p></th>
+                    <th><p class="text-center">Сб 18</p></th>
+                    <th><p class="text-center">Вс 19</p></th>
+                    <th><p class="text-center">Пн 20</p></th>
+                    <th><p class="text-center">Вт 21</p></th>
+                    <th><p class="text-center">Ср 22</p></th>
+                    <th><p class="text-center">Чт 23</p></th>
+                    <th><p class="text-center">Пт 24</p></th>
+                    <th><p class="text-center">Сб 25</p></th>
+                    <th><p class="text-center">Вс 26</p></th>
+                    <th><p class="text-center">Пн 27</p></th>
+                    <th><p class="text-center">Вт 28</p></th>
+                    <th><p class="text-center">Ср 29</p></th>
+                    <th><p class="text-center">Чт 30</p></th>
+                    <th><p class="text-center">Пт 31</p></th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <style>
+                      table, td{
+                        border-collapse: collapse;
+                        border: 1px solid #000;
+                        padding: 10px;
+                      }
+                      .checkbox{
+                        text-align: center;
+                     /*Centering the text in a td of the table*/
+                      }
+                    </style>
+                    <td>1</td>
+                    <td>Ушаков Сергей</td>
+                    <td><input type="checkbox" style="text-align:center;></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+
+
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Гиззатуллин Данилл</td>
+                    <td><input type="checkbox" style="text-align:center;></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Дехтярюк Константин</td>
+                    <td><input type="checkbox" style="text-align:center;></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td></tr>
+                </tbody>
+            </table>
+            <!-- End Students Listing -->
+ 
+    </div>
+    <!-- End Main Page Content -->
+
+    <!-- Start footer -->
+    <footer>
+        <div class="row" id ="footer">
+            <div class="col col-xs-12">
+                &copy; 2020 Сервис Учёта Студентов
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
